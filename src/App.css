@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./home.webp);  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.425);
+  padding: 1rem;
+  color: white;
+}
+
+.logo{
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: .1rem;
+  font-size: 2rem;
+}
+
+a{
+  color: currentColor;
+}
+
+footer{
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+  padding: 1rem;
+  color: white;
+
+}
+
+.MainArena{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Intro, .Result{
+  background-color: white;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.Result{
+  margin: 0rem 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button{
+  padding: .3rem .9rem;
+  border: none;
+  background-color: black;
+  color: pink;
+  cursor: pointer;
+}
+
+.options{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.option-btn{
+  width: 100%;
+  padding: 1rem 3rem;
+  transition: all ease-in-out 300ms;
+}
+
+li{
+  list-style-type: "- ";
+}
+
+.char-name{
+  font-size: 1.5rem;
+}
+
+li span{
+  font-weight: bold;
+}
+
+.stats-pic-div{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+
+.option-btn:hover{
+  transform: scale(1.07);
+}
+
+.qtn-header{
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .Intro{
+    text-align: center;
+    margin: 0rem 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .options{
+    grid-template-columns: 1fr;
+  }
+
+  .qtn-header{
+    flex-direction: column;
+  }
+
+  .stats-pic-div{
+    flex-direction: column-reverse;
+  }
+
+  .Intro, .Result{
+    margin-top: 2rem;
   }
 }
