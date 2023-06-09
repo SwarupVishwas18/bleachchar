@@ -12,11 +12,9 @@ React Based Application for Finding Which Bleach ( Anime ) Character you are?
 2. Go to terminal in the folder and type down `npm start` and hit  enter
 
 ## Tech Stack
-1. REACT
-  a. state
-  b. components
-3. HTML
-4. CSS
+1. REACT state, components
+2. HTML
+3. CSS
 
 ## Screenshot
 
@@ -25,3 +23,5 @@ React Based Application for Finding Which Bleach ( Anime ) Character you are?
 ![image](https://github.com/SwarupVishwas18/bleachchar/assets/91014156/557307f3-4605-4030-810a-c9b65a3543c9)
 
 ![image](https://github.com/SwarupVishwas18/bleachchar/assets/91014156/ef7afd20-39d6-49a0-a2bf-c370da102dbb)
+
+Live Link [https://bleachchar.vercel.app/]
