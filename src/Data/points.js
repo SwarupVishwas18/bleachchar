@@ -29,7 +29,7 @@ const characters = [
       "Shinji Hirako is a cunning and unconventional Soul Reaper. He possesses the power of a Visored, allowing him to combine his Soul Reaper abilities with those of a Hollow. Shinji's strength lies in his mastery of illusion-based techniques and his strategic mindset. However, his weakness is his laid-back attitude and his tendency to underestimate his opponents.",
     isHero: true,
     image_link:
-      "https://dthezntil550i.cloudfront.net/xy/latest/xy2006131045118420012671766/aa2cdf88-2b06-4bba-8cb7-31c3d3ba0243.png",
+      "https://static.wikia.nocookie.net/bleach/images/4/4f/Ep206ShinjiHirako.png/revision/latest/scale-to-width-down/1000?cb=20231105210107&path-prefix=en",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ const characters = [
       "Ulquiorra Cifer is a calm and analytical Arrancar. He possesses tremendous spiritual power and incredible regenerative abilities. Ulquiorra's strength lies in his superior speed and his capacity for logical thinking. However, his weakness is his lack of emotional understanding and his dismissive attitude towards human emotions.",
     isHero: false,
     image_link:
-      "https://pbs.twimg.com/profile_images/1613238951191404545/vRq_mfdJ_400x400.jpg",
+      "https://static.wikia.nocookie.net/bleach/images/d/df/Ep203UlquiorraProfile.png/revision/latest/scale-to-width-down/1000?cb=20220430040037&path-prefix=en",
   },
   {
     id: 8,
@@ -173,7 +173,7 @@ const characters = [
       "Yhwach is a formidable and charismatic leader. He possesses the power of the Almighty, which grants him the ability to foresee and alter the future. Yhwach's strength lies in his overwhelming spiritual pressure and his ability to manipulate the fates of others. However, his weakness is his arrogance and his obsession with controlling everything.",
     isHero: false,
     image_link:
-      "https://sportshub.cbsistatic.com/i/2021/03/16/8ee93919-3c2e-4335-93ec-0ef34e7a5fd2/ichigo-bleach-1111560.jpg",
+      "https://static.wikia.nocookie.net/bleach/images/8/80/Ep371YhwachProfile.png/revision/latest?cb=20221123091409&path-prefix=en",
   },
   {
     id: 12,
